@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  line-height: 1.4;
+  background: #e1e1e1;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 1rem;
+  color: #000;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #006600;
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
+
+h3, h4 {
+  font-weight: normal;
+}
+p { padding: 0; }
+
+ul {
+  list-style-type: none;
+}
+
+img {
+  width: 100%;
+}
+
+/* Utility Classes*/
+
+.container {
+  max-width: 1400px;
+  margin: 10px 20px;
+}
+
+.parternship {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.logos {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.logo-img {
+  width: 110px;
+  margin: 0 0.875rem;
+}
+
+.sm-image { 
+  height: 150px;
+}
+
+.lead {
+  font-variant: small-caps;
+  color: #aca9a9;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.box {
+  height: 120px;
+}
+
+.lg-number { 
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+
+.text-bold { font-weight: bold;}
+.small-caps { font-variant: small-caps;}
+.py-1 {padding: 5px;}
+.py-2 {padding: 1rem;}
+.bg-dark {background: #999999; }
+.bg-red { background: #be4a47;}
+.bg-white { background: #fff;}
+.bg-cyan { background: #689fb0;}
+
+#station-content .info-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 8px;
+}
+
+#station-content .info-container > :nth-child(4) {
+  grid-row: 2 / span 2;
+}
+
+#station-content .info-container > :nth-child(6) {
+  /*Change this value in case the content appear in top or bottom of Voltage per phase*/
+  margin-top: -135px ;
+}
+#station-content .info-container > :nth-child(7) {
+  grid-column: 2 / span 1;
+}
+
+#station-content .details-item .station-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#station-content .details-items {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 180px;
+  grid-gap: 8px;
+}
+
+#station-content .details-items .box {
+  text-align: center;
+  color: #fff;
+}
+
+#main-footer .container {
+  background: #fff;
+  text-align: center;
+  font-size: 1rem;
+}
+
