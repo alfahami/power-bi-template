@@ -130,3 +130,45 @@ img {
   font-size: 1rem;
 }
 
+/* Media Queries*/
+
+
+@media(max-width: 500px){
+  h1 {text-align: center;}
+  
+  .lead {
+    display: block;
+    text-align: center;
+  }
+  .parternship span { display: none;}
+  .logo-img { 
+    margin-top: 0.875rem;
+    text-align: center;
+    width: 25%;}
+  .box {height: 100px;}
+
+
+  #station-content .details-item .station-details {
+    display: block;
+  }
+  #station-content .details-item .station-details i {
+    display: none;
+  }
+  #station-content .info-container {
+    display: block;
+  }
+
+  #station-content .info-container > div {
+    margin-bottom: 1rem;
+  }
+
+  #station-content .info-container > :nth-child(6) {
+    margin-top: 0 !important;
+  }
+
+  #station-content .details-items .item {
+    display: block;
+  }
+}
+
+
